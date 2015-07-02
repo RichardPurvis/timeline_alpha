@@ -1,6 +1,5 @@
-<h1>Editing sequence</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @sequence %> |
-<%= link_to 'Back', sequences_path %>
+<%- model_class = Sequence -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => Sequence %></h1>
+</div>
+<%= render :partial => 'form' %>
