@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @timeline.user %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @timeline.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @timeline.description %>
+</p>
+
+<p>
+  <strong>Default color:</strong>
+  <%= @timeline.default_color %>
+</p>
+
+<p>
+  <strong>Access level:</strong>
+  <%= @timeline.access_level %>
+</p>
+
+<%= link_to 'Edit', edit_timeline_path(@timeline) %> |
+<%= link_to 'Back', timelines_path %>
