@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  timeline_id: 
+  name: MyString
+  description: MyText
+  start_datetime: 2015-07-02 22:54:17
+  end_datetime: 2015-07-02 22:54:17
+  priority: 1
+
+two:
+  timeline_id: 
+  name: MyString
+  description: MyText
+  start_datetime: 2015-07-02 22:54:17
+  end_datetime: 2015-07-02 22:54:17
+  priority: 1
