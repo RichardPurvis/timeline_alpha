@@ -29,6 +29,7 @@ class TimelinesController < ApplicationController
   # POST /timelines.json
   def create
     @timeline = Timeline.new(timeline_params)
+    @timeline.user = current_user
 
     respond_to do |format|
       if @timeline.save
