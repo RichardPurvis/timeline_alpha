@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Timeline:</strong>
+  <%= @sequence.timeline %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sequence.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @sequence.description %>
+</p>
+
+<p>
+  <strong>Start datetime:</strong>
+  <%= @sequence.start_datetime %>
+</p>
+
+<p>
+  <strong>End datetime:</strong>
+  <%= @sequence.end_datetime %>
+</p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @sequence.priority %>
+</p>
+
+<%= link_to 'Edit', edit_sequence_path(@sequence) %> |
+<%= link_to 'Back', sequences_path %>

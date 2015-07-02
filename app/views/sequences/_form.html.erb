@@ -1,0 +1,16 @@
+<%= simple_form_for(@sequence) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :timeline %>
+    <%= f.input :name %>
+    <%= f.input :description %>
+    <%= f.input :start_datetime %>
+    <%= f.input :end_datetime %>
+    <%= f.input :priority %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
