@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sequence_id: 
+  description: MyText
+  name: MyString
+  priority: 1
+  event_datetime: 2015-07-02 22:54:15
+
+two:
+  sequence_id: 
+  description: MyText
+  name: MyString
+  priority: 1
+  event_datetime: 2015-07-02 22:54:15
